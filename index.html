@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Anurag Biswas | Software Engineer • Web Developer</title>
+  <meta name="description"
+        content="Anurag Biswas is a software engineer and web developer from India, building modern web applications, marketplaces, and autonomous AI systems." />
+  <meta name="keywords"
+        content="Anurag Biswas, Software Engineer, Web Developer, Portfolio, GitHub Pages, Full Stack Developer, AI, Electronics" />
+  <meta name="author" content="Anurag Biswas" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://anuragbiswas01.github.io/" />
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Anurag Biswas | Software Engineer & Web Developer" />
+  <meta property="og:description"
+        content="Portfolio of Anurag Biswas — software engineer building web platforms, AI systems, and electronics projects." />
+  <meta property="og:url" content="https://anuragbiswas01.github.io/" />
+  <meta property="og:image" content="https://anuragbiswas01.github.io/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anurag Biswas | Software Engineer" />
+  <meta name="twitter:description"
+        content="Software engineer & web developer building modern platforms and AI systems." />
+  <meta name="twitter:image" content="https://anuragbiswas01.github.io/og-image.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#22c55e',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Structured Data (Google Rich Results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anurag Biswas",
+    "url": "https://anuragbiswas01.github.io/",
+    "sameAs": [
+      "https://github.com/anuragbiswas01"
+    ],
+    "jobTitle": "Software Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent / Open Source"
+    }
+  }
+  </script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
+      Hi, I’m <span class="text-accent">Anurag</span> 👋
+    </h1>
+
+    <p class="mt-4 max-w-xl text-gray-400 text-lg">
+      Software Engineer • Web Developer • Electronics & AI Enthusiast  
+      <br class="hidden sm:block" />
+      Building things that are useful, simple, and human.
+    </p>
+
+    <div class="mt-8 flex gap-4">
+      <a href="#projects"
+         class="px-6 py-3 rounded-xl bg-accent text-gray-900 font-semibold hover:opacity-90 transition">
+        View Projects
+      </a>
+
+      <a href="https://github.com/anuragbiswas01"
+         target="_blank"
+         class="px-6 py-3 rounded-xl border border-gray-700 hover:border-accent transition">
+        GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-gray-400 leading-relaxed">
+      I’m a software engineer from India with a deep interest in web development,
+      system design, electronics, and autonomous AI systems.  
+      <br /><br />
+      I enjoy building practical products — marketplaces, platforms, tools — and
+      experimenting with hardware, microcontrollers, and long-running AI agents.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-900/40 py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10">Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Card -->
+        <div class="p-6 rounded-2xl bg-gray-900 border border-gray-800 hover:border-accent transition">
+          <h3 class="text-xl font-semibold">Marketplace Platform</h3>
+          <p class="mt-2 text-gray-400">
+            A free marketplace inspired by OLX / Dealkiya, built using modern web tech.
+          </p>
+          <span class="mt-4 inline-block text-sm text-accent">In progress</span>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-gray-900 border border-gray-800 hover:border-accent transition">
+          <h3 class="text-xl font-semibold">Always-On AI Assistant</h3>
+          <p class="mt-2 text-gray-400">
+            Long-running autonomous AI system with memory, reflection, and device control.
+          </p>
+          <span class="mt-4 inline-block text-sm text-accent">R&D</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold">Let’s Connect</h2>
+    <p class="mt-4 text-gray-400">
+      I’m open to collaboration, freelance work, and interesting ideas.
+    </p>
+
+    <div class="mt-6">
+      <a href="mailto:your.email@example.com"
+         class="inline-block px-8 py-3 rounded-xl bg-accent text-gray-900 font-semibold hover:opacity-90 transition">
+        Say Hello
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-6 text-center text-gray-500 text-sm">
+    © <span id="year"></span> Anurag Biswas. Built with ❤️ & Tailwind CSS.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
